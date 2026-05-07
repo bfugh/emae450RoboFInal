@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs
+CMAKE_SOURCE_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs
+CMAKE_BINARY_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs
 
 # Utility rule file for turtlebot4_msgs__rosidl_generator_type_description.
 
@@ -75,8 +75,8 @@ rosidl_generator_type_description/turtlebot4_msgs/msg/UserLed.json: /opt/ros/jaz
 rosidl_generator_type_description/turtlebot4_msgs/msg/UserLed.json: rosidl_adapter/turtlebot4_msgs/msg/UserLed.idl
 rosidl_generator_type_description/turtlebot4_msgs/msg/UserLed.json: rosidl_adapter/turtlebot4_msgs/msg/UserButton.idl
 rosidl_generator_type_description/turtlebot4_msgs/msg/UserLed.json: rosidl_adapter/turtlebot4_msgs/msg/UserDisplay.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/turtlebot4_msgs/msg/UserButton.json: rosidl_generator_type_description/turtlebot4_msgs/msg/UserLed.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/turtlebot4_msgs/msg/UserButton.json
@@ -100,6 +100,6 @@ CMakeFiles/turtlebot4_msgs__rosidl_generator_type_description.dir/clean:
 .PHONY : CMakeFiles/turtlebot4_msgs__rosidl_generator_type_description.dir/clean
 
 CMakeFiles/turtlebot4_msgs__rosidl_generator_type_description.dir/depend:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles/turtlebot4_msgs__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles/turtlebot4_msgs__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/turtlebot4_msgs__rosidl_generator_type_description.dir/depend
 

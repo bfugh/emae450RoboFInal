@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROSIDL_GENERATOR_C_BUILDING_DLL_turtlebot4_msgs -DROS_PACKAGE_NAME=\"turtlebot4_msgs\"
 
-C_INCLUDES = -I/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_c -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface
+C_INCLUDES = -I/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_c -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface
 
 C_FLAGS = -std=gnu11 -fPIC -Wall
 

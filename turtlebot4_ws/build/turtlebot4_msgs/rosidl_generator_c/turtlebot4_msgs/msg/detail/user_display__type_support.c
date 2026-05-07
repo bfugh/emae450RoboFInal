@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "turtlebot4_msgs/msg/detail/user_display__type_support.h"
-#include "turtlebot4_msgs/msg/detail/user_display__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "turtlebot4_msgs/msg/detail/user_display__struct.h"
 #include "turtlebot4_msgs/msg/detail/user_display__functions.h"
 
 #ifdef __cplusplus

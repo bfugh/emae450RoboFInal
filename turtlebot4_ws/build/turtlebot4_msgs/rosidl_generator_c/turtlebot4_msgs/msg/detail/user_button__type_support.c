@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "turtlebot4_msgs/msg/detail/user_button__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "turtlebot4_msgs/msg/detail/user_button__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "turtlebot4_msgs/msg/detail/user_button__struct.h"
 #include "turtlebot4_msgs/msg/detail/user_button__functions.h"
 
 #ifdef __cplusplus

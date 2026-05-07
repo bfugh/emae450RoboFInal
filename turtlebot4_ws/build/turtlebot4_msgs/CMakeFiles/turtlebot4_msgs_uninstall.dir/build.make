@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs
+CMAKE_SOURCE_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs
+CMAKE_BINARY_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs
 
 # Utility rule file for turtlebot4_msgs_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/turtlebot4_msgs_uninstall.dir/compiler_depend.make
 include CMakeFiles/turtlebot4_msgs_uninstall.dir/progress.make
 
 CMakeFiles/turtlebot4_msgs_uninstall:
-	/usr/bin/cmake -P /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 turtlebot4_msgs_uninstall: CMakeFiles/turtlebot4_msgs_uninstall
 turtlebot4_msgs_uninstall: CMakeFiles/turtlebot4_msgs_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/turtlebot4_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/turtlebot4_msgs_uninstall.dir/clean
 
 CMakeFiles/turtlebot4_msgs_uninstall.dir/depend:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles/turtlebot4_msgs_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles/turtlebot4_msgs_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/turtlebot4_msgs_uninstall.dir/depend
 

@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_node/src/buttons.cpp" "CMakeFiles/turtlebot4_node_lib.dir/src/buttons.cpp.o" "gcc" "CMakeFiles/turtlebot4_node_lib.dir/src/buttons.cpp.o.d"
-  "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_node/src/display.cpp" "CMakeFiles/turtlebot4_node_lib.dir/src/display.cpp.o" "gcc" "CMakeFiles/turtlebot4_node_lib.dir/src/display.cpp.o.d"
-  "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_node/src/leds.cpp" "CMakeFiles/turtlebot4_node_lib.dir/src/leds.cpp.o" "gcc" "CMakeFiles/turtlebot4_node_lib.dir/src/leds.cpp.o.d"
-  "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_node/src/main.cpp" "CMakeFiles/turtlebot4_node_lib.dir/src/main.cpp.o" "gcc" "CMakeFiles/turtlebot4_node_lib.dir/src/main.cpp.o.d"
-  "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_node/src/turtlebot4.cpp" "CMakeFiles/turtlebot4_node_lib.dir/src/turtlebot4.cpp.o" "gcc" "CMakeFiles/turtlebot4_node_lib.dir/src/turtlebot4.cpp.o.d"
+  "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_node/src/buttons.cpp" "CMakeFiles/turtlebot4_node_lib.dir/src/buttons.cpp.o" "gcc" "CMakeFiles/turtlebot4_node_lib.dir/src/buttons.cpp.o.d"
+  "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_node/src/display.cpp" "CMakeFiles/turtlebot4_node_lib.dir/src/display.cpp.o" "gcc" "CMakeFiles/turtlebot4_node_lib.dir/src/display.cpp.o.d"
+  "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_node/src/leds.cpp" "CMakeFiles/turtlebot4_node_lib.dir/src/leds.cpp.o" "gcc" "CMakeFiles/turtlebot4_node_lib.dir/src/leds.cpp.o.d"
+  "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_node/src/main.cpp" "CMakeFiles/turtlebot4_node_lib.dir/src/main.cpp.o" "gcc" "CMakeFiles/turtlebot4_node_lib.dir/src/main.cpp.o.d"
+  "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_node/src/turtlebot4.cpp" "CMakeFiles/turtlebot4_node_lib.dir/src/turtlebot4.cpp.o" "gcc" "CMakeFiles/turtlebot4_node_lib.dir/src/turtlebot4.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs
+CMAKE_SOURCE_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs
+CMAKE_BINARY_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs
 
 # Include any dependencies generated for this target.
 include CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o: CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o: rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o: CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o -MF CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o.d -o CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o -MF CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o.d -o CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c
 
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c > CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c > CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.i
 
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c -o CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c -o CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.s
 
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o: CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o: rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o: CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o -MF CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o.d -o CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o -MF CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o.d -o CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c
 
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c > CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c > CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.i
 
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c -o CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c -o CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.s
 
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o: CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o: rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o: CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o -MF CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o.d -o CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o -MF CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o.d -o CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c
 
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c > CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c > CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.i
 
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c -o CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c -o CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.s
 
 # Object files for target turtlebot4_msgs__rosidl_generator_py
 turtlebot4_msgs__rosidl_generator_py_OBJECTS = \
@@ -124,13 +124,13 @@ libturtlebot4_msgs__rosidl_generator_py.so: CMakeFiles/turtlebot4_msgs__rosidl_g
 libturtlebot4_msgs__rosidl_generator_py.so: CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o
 libturtlebot4_msgs__rosidl_generator_py.so: CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o
 libturtlebot4_msgs__rosidl_generator_py.so: CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/build.make
-libturtlebot4_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.12.so
+libturtlebot4_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.12.so
 libturtlebot4_msgs__rosidl_generator_py.so: libturtlebot4_msgs__rosidl_typesupport_c.so
 libturtlebot4_msgs__rosidl_generator_py.so: libturtlebot4_msgs__rosidl_generator_c.so
 libturtlebot4_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libturtlebot4_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librcutils.so
 libturtlebot4_msgs__rosidl_generator_py.so: CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libturtlebot4_msgs__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libturtlebot4_msgs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +142,6 @@ CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/clean
 
 CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/depend:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/depend
 

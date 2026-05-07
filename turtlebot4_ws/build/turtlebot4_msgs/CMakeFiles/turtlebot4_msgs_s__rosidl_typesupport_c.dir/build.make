@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs
+CMAKE_SOURCE_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs
+CMAKE_BINARY_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs
 
 # Include any dependencies generated for this target.
 include CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o: CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o: rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c
 CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o: CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o -MF CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o.d -o CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o -MF CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o.d -o CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c
 
 CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c > CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c > CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.i
 
 CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c -o CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c -o CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.s
 
 # Object files for target turtlebot4_msgs_s__rosidl_typesupport_c
 turtlebot4_msgs_s__rosidl_typesupport_c_OBJECTS = \
@@ -101,7 +101,7 @@ rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so: 
 rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so: /opt/ros/jazzy/lib/librcutils.so
 rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so: CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared module rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared module rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/clean:
 .PHONY : CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/clean
 
 CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/depend:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/depend
 

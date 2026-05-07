@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_viz
+CMAKE_SOURCE_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_viz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_viz
+CMAKE_BINARY_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_viz
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_viz/CMakeFiles /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_viz//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_viz/CMakeFiles /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_viz//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_viz/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_viz/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,11 +1,11 @@
 {
   "package_name": "turtlebot4_msgs",
-  "output_dir": "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_fastrtps_c/turtlebot4_msgs",
+  "output_dir": "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_fastrtps_c/turtlebot4_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs:msg/UserLed.idl",
-    "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs:msg/UserButton.idl",
-    "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs:msg/UserDisplay.idl"
+    "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs:msg/UserLed.idl",
+    "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs:msg/UserButton.idl",
+    "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs:msg/UserDisplay.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
@@ -16,8 +16,8 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
-    "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserLed.idl",
-    "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserButton.idl",
-    "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserDisplay.idl"
+    "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserLed.idl",
+    "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserButton.idl",
+    "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserDisplay.idl"
   ]
 }

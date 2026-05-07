@@ -1,8 +1,8 @@
-# Install script for directory: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_setup
+# Install script for directory: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_setup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/install/turtlebot4_setup")
+  set(CMAKE_INSTALL_PREFIX "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/install/turtlebot4_setup")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_setup/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_setup/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/install/turtlebot4_setup/lib/python3.12/site-packages/turtlebot4_setup"
+        "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/install/turtlebot4_setup/lib/python3.12/site-packages/turtlebot4_setup"
       )
 endif()
 
@@ -62,5 +62,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_setup/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_setup/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

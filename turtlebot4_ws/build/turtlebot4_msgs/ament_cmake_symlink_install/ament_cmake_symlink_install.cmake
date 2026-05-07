@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/install/turtlebot4_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/install/turtlebot4_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/install/turtlebot4_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/install/turtlebot4_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/install/turtlebot4_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/install/turtlebot4_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/install/turtlebot4_msgs/${destination}")
+      set(destination "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/install/turtlebot4_msgs/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -315,140 +315,140 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserLed.json" "DESTINATION" "share/turtlebot4_msgs/msg")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserLed.json" "DESTINATION" "share/turtlebot4_msgs/msg")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserLed.json" "DESTINATION" "share/turtlebot4_msgs/msg")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserLed.json" "DESTINATION" "share/turtlebot4_msgs/msg")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserButton.json" "DESTINATION" "share/turtlebot4_msgs/msg")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserButton.json" "DESTINATION" "share/turtlebot4_msgs/msg")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserButton.json" "DESTINATION" "share/turtlebot4_msgs/msg")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserButton.json" "DESTINATION" "share/turtlebot4_msgs/msg")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserDisplay.json" "DESTINATION" "share/turtlebot4_msgs/msg")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserDisplay.json" "DESTINATION" "share/turtlebot4_msgs/msg")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserDisplay.json" "DESTINATION" "share/turtlebot4_msgs/msg")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserDisplay.json" "DESTINATION" "share/turtlebot4_msgs/msg")
 
-# install(DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_c/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_c/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.h")
+# install(DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_c/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_c/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
 
-# install(DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_introspection_c/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_introspection_c/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.h")
+# install(DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_introspection_c/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_introspection_c/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.h")
 
-# install(DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_cpp/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_cpp/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_cpp/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_cpp/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.hpp")
 
-# install(DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/" "DESTINATION" "include/turtlebot4_msgs/turtlebot4_msgs" "PATTERN" "*.hpp")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
 
-# install(DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_python/turtlebot4_msgs/turtlebot4_msgs.egg-info/" "DESTINATION" "lib/python3.12/site-packages/turtlebot4_msgs-2.1.1-py3.12.egg-info")
-ament_cmake_symlink_install_directory("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_python/turtlebot4_msgs/turtlebot4_msgs.egg-info/" "DESTINATION" "lib/python3.12/site-packages/turtlebot4_msgs-2.1.1-py3.12.egg-info")
+# install(DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_python/turtlebot4_msgs/turtlebot4_msgs.egg-info/" "DESTINATION" "lib/python3.12/site-packages/turtlebot4_msgs-2.1.1-py3.12.egg-info")
+ament_cmake_symlink_install_directory("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_python/turtlebot4_msgs/turtlebot4_msgs.egg-info/" "DESTINATION" "lib/python3.12/site-packages/turtlebot4_msgs-2.1.1-py3.12.egg-info")
 
-# install(DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/" "DESTINATION" "lib/python3.12/site-packages/turtlebot4_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/" "DESTINATION" "lib/python3.12/site-packages/turtlebot4_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/" "DESTINATION" "lib/python3.12/site-packages/turtlebot4_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" DIRECTORY "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/" "DESTINATION" "lib/python3.12/site-packages/turtlebot4_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install("TARGETS" "turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/turtlebot4_msgs")
-include("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "turtlebot4_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/turtlebot4_msgs")
-include("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "turtlebot4_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/turtlebot4_msgs")
-include("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserLed.idl" "DESTINATION" "share/turtlebot4_msgs/msg")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserLed.idl" "DESTINATION" "share/turtlebot4_msgs/msg")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserLed.idl" "DESTINATION" "share/turtlebot4_msgs/msg")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserLed.idl" "DESTINATION" "share/turtlebot4_msgs/msg")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserButton.idl" "DESTINATION" "share/turtlebot4_msgs/msg")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserButton.idl" "DESTINATION" "share/turtlebot4_msgs/msg")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserButton.idl" "DESTINATION" "share/turtlebot4_msgs/msg")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserButton.idl" "DESTINATION" "share/turtlebot4_msgs/msg")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserDisplay.idl" "DESTINATION" "share/turtlebot4_msgs/msg")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserDisplay.idl" "DESTINATION" "share/turtlebot4_msgs/msg")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserDisplay.idl" "DESTINATION" "share/turtlebot4_msgs/msg")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_adapter/turtlebot4_msgs/msg/UserDisplay.idl" "DESTINATION" "share/turtlebot4_msgs/msg")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserLed.msg" "DESTINATION" "share/turtlebot4_msgs/msg")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserLed.msg" "DESTINATION" "share/turtlebot4_msgs/msg")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserLed.msg" "DESTINATION" "share/turtlebot4_msgs/msg")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserLed.msg" "DESTINATION" "share/turtlebot4_msgs/msg")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserButton.msg" "DESTINATION" "share/turtlebot4_msgs/msg")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserButton.msg" "DESTINATION" "share/turtlebot4_msgs/msg")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserButton.msg" "DESTINATION" "share/turtlebot4_msgs/msg")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserButton.msg" "DESTINATION" "share/turtlebot4_msgs/msg")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserDisplay.msg" "DESTINATION" "share/turtlebot4_msgs/msg")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserDisplay.msg" "DESTINATION" "share/turtlebot4_msgs/msg")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserDisplay.msg" "DESTINATION" "share/turtlebot4_msgs/msg")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserDisplay.msg" "DESTINATION" "share/turtlebot4_msgs/msg")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot4_msgs/environment")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot4_msgs/environment")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/turtlebot4_msgs")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/turtlebot4_msgs")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/turtlebot4_msgs")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/turtlebot4_msgs")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/turtlebot4_msgs")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/turtlebot4_msgs")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/turtlebot4_msgs")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/turtlebot4_msgs")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/turtlebot4_msgs")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/turtlebot4_msgs")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/turtlebot4_msgs")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/turtlebot4_msgs")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/turtlebot4_msgs")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/turtlebot4_msgs")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/turtlebot4_msgs")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/turtlebot4_msgs")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/turtlebot4_msgs")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/turtlebot4_msgs")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/turtlebot4_msgs")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/turtlebot4_msgs")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot4_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_core/turtlebot4_msgsConfig.cmake" "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_core/turtlebot4_msgsConfig-version.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_core/turtlebot4_msgsConfig.cmake" "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_core/turtlebot4_msgsConfig-version.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_core/turtlebot4_msgsConfig.cmake" "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_core/turtlebot4_msgsConfig-version.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_core/turtlebot4_msgsConfig.cmake" "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_core/turtlebot4_msgsConfig-version.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")
 
-# install(FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/package.xml" "DESTINATION" "share/turtlebot4_msgs")
-ament_cmake_symlink_install_files("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/package.xml" "DESTINATION" "share/turtlebot4_msgs")
+# install(FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/package.xml" "DESTINATION" "share/turtlebot4_msgs")
+ament_cmake_symlink_install_files("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/package.xml" "DESTINATION" "share/turtlebot4_msgs")

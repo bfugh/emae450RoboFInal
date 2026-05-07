@@ -1,8 +1,8 @@
-# Install script for directory: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation
+# Install script for directory: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/install/turtlebot4_navigation")
+  set(CMAKE_INSTALL_PREFIX "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/install/turtlebot4_navigation")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_navigation/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_navigation/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation"
+        "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigation"
       )
 endif()
 
@@ -58,7 +58,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigator.py"
+        "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/install/turtlebot4_navigation/lib/python3.12/site-packages/turtlebot4_navigator.py"
       )
 endif()
 
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_navigation/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_navigation/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

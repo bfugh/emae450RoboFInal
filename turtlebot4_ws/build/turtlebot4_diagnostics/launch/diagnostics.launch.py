@@ -1,1 +1,1 @@
-/home/brian/robo450/final/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_diagnostics/launch/diagnostics.launch.py
+/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_diagnostics/launch/diagnostics.launch.py

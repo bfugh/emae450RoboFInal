@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROS_PACKAGE_NAME=\"turtlebot4_msgs\" -Dturtlebot4_msgs__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_c -I/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /home/brian/.local/lib/python3.12/site-packages/numpy/_core/include -isystem /usr/include/python3.12
+C_INCLUDES = -I/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_c -I/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/rosidl_generator_py -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /home/awudali/.local/lib/python3.12/site-packages/numpy/core/include -isystem /usr/include/python3.12
 
 C_FLAGS = -std=gnu99 -fPIC -Wall -Wextra
 

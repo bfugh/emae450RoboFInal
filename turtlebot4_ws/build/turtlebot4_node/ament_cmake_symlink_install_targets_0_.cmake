@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_node/turtlebot4_node" "TARGETS" "turtlebot4_node" "DESTINATION" "lib/turtlebot4_node")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_node/turtlebot4_node" "TARGETS" "turtlebot4_node" "DESTINATION" "lib/turtlebot4_node")

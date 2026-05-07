@@ -1,8 +1,8 @@
-# Install script for directory: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py
+# Install script for directory: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/install/turtlebot4_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/install/turtlebot4_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

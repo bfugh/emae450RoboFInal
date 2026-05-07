@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs
+CMAKE_SOURCE_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs
+CMAKE_BINARY_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -E cmake_progress_start /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py//CMakeFiles/progress.marks
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles 0
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -E cmake_progress_start /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py//CMakeFiles/progress.marks
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/clean
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,31 +158,31 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/preinstall
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/preinstall
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/CMakeFiles/turtlebot4_msgs__py.dir/rule:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/CMakeFiles/turtlebot4_msgs__py.dir/rule
-.PHONY : /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/CMakeFiles/turtlebot4_msgs__py.dir/rule
+/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/CMakeFiles/turtlebot4_msgs__py.dir/rule:
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/CMakeFiles/turtlebot4_msgs__py.dir/rule
+.PHONY : /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/CMakeFiles/turtlebot4_msgs__py.dir/rule
 
 # Convenience name for target.
-turtlebot4_msgs__py: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/CMakeFiles/turtlebot4_msgs__py.dir/rule
+turtlebot4_msgs__py: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/CMakeFiles/turtlebot4_msgs__py.dir/rule
 .PHONY : turtlebot4_msgs__py
 
 # fast build rule for target.
 turtlebot4_msgs__py/fast:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(MAKE) $(MAKESILENT) -f /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/CMakeFiles/turtlebot4_msgs__py.dir/build.make /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/CMakeFiles/turtlebot4_msgs__py.dir/build
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(MAKE) $(MAKESILENT) -f /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/CMakeFiles/turtlebot4_msgs__py.dir/build.make /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/CMakeFiles/turtlebot4_msgs__py.dir/build
 .PHONY : turtlebot4_msgs__py/fast
 
 # Help Target
@@ -210,6 +210,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

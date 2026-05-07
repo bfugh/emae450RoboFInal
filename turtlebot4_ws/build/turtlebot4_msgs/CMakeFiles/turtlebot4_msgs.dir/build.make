@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs
+CMAKE_SOURCE_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs
+CMAKE_BINARY_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs
 
 # Utility rule file for turtlebot4_msgs.
 
@@ -66,9 +66,9 @@ include CMakeFiles/turtlebot4_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/turtlebot4_msgs.dir/progress.make
 
-CMakeFiles/turtlebot4_msgs: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserLed.msg
-CMakeFiles/turtlebot4_msgs: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserButton.msg
-CMakeFiles/turtlebot4_msgs: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserDisplay.msg
+CMakeFiles/turtlebot4_msgs: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserLed.msg
+CMakeFiles/turtlebot4_msgs: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserButton.msg
+CMakeFiles/turtlebot4_msgs: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs/msg/UserDisplay.msg
 
 turtlebot4_msgs: CMakeFiles/turtlebot4_msgs
 turtlebot4_msgs: CMakeFiles/turtlebot4_msgs.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/turtlebot4_msgs.dir/clean:
 .PHONY : CMakeFiles/turtlebot4_msgs.dir/clean
 
 CMakeFiles/turtlebot4_msgs.dir/depend:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles/turtlebot4_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_msgs/CMakeFiles/turtlebot4_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/turtlebot4_msgs.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_setup
+CMAKE_SOURCE_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_setup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_setup
+CMAKE_BINARY_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_setup
 
 # Utility rule file for ament_cmake_python_symlink_turtlebot4_setup.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup:
-	/usr/bin/cmake -E create_symlink /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_setup/turtlebot4_setup /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_setup/ament_cmake_python/turtlebot4_setup/turtlebot4_setup
+	/usr/bin/cmake -E create_symlink /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_setup/turtlebot4_setup /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_setup/ament_cmake_python/turtlebot4_setup/turtlebot4_setup
 
 ament_cmake_python_symlink_turtlebot4_setup: CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup
 ament_cmake_python_symlink_turtlebot4_setup: CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup.dir/depend:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_setup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_setup /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_setup /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_setup /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_setup /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_setup/CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_setup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_setup /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_setup /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_setup /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_setup /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_setup/CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup.dir/depend
 

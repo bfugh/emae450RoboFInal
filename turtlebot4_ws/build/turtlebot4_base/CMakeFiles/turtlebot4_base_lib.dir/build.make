@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base
+CMAKE_SOURCE_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base
+CMAKE_BINARY_DIR = /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base
 
 # Include any dependencies generated for this target.
 include CMakeFiles/turtlebot4_base_lib.dir/depend.make
@@ -70,130 +70,130 @@ include CMakeFiles/turtlebot4_base_lib.dir/progress.make
 include CMakeFiles/turtlebot4_base_lib.dir/flags.make
 
 CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/flags.make
-CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.o: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/main.cpp
+CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.o: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/main.cpp
 CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/main.cpp
 
 CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/main.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/main.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.i
 
 CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/main.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/main.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/main.cpp.s
 
 CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/flags.make
-CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.o: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/turtlebot4.cpp
+CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.o: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/turtlebot4.cpp
 CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/turtlebot4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/turtlebot4.cpp
 
 CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/turtlebot4.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/turtlebot4.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.i
 
 CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/turtlebot4.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/turtlebot4.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/turtlebot4.cpp.s
 
 CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/flags.make
-CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.o: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/display.cpp
+CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.o: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/display.cpp
 CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/display.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/display.cpp
 
 CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/display.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/display.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.i
 
 CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/display.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/display.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/display.cpp.s
 
 CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/flags.make
-CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.o: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306.cpp
+CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.o: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306.cpp
 CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306.cpp
 
 CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.i
 
 CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306.cpp.s
 
 CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/flags.make
-CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.o: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306_fonts.cpp
+CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.o: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306_fonts.cpp
 CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306_fonts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306_fonts.cpp
 
 CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306_fonts.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306_fonts.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.i
 
 CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306_fonts.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/ssd1306_fonts.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/ssd1306_fonts.cpp.s
 
 CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/flags.make
-CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.o: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/i2c_interface.cpp
+CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.o: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/i2c_interface.cpp
 CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/i2c_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/i2c_interface.cpp
 
 CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/i2c_interface.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/i2c_interface.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.i
 
 CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/i2c_interface.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/i2c_interface.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/i2c_interface.cpp.s
 
 CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/flags.make
-CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.o: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/gpio_interface.cpp
+CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.o: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/gpio_interface.cpp
 CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/gpio_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/gpio_interface.cpp
 
 CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/gpio_interface.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/gpio_interface.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.i
 
 CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/gpio_interface.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/gpio_interface.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/gpio_interface.cpp.s
 
 CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/flags.make
-CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/buttons.cpp
+CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/buttons.cpp
 CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/buttons.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/buttons.cpp
 
 CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/buttons.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/buttons.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.i
 
 CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/buttons.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/buttons.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.s
 
 CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/flags.make
-CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o: /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/leds.cpp
+CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o: /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/leds.cpp
 CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o: CMakeFiles/turtlebot4_base_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o -c /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/leds.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o -MF CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o.d -o CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o -c /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/leds.cpp
 
 CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/leds.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/leds.cpp > CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.i
 
 CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/leds.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base/src/leds.cpp -o CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.s
 
 # Object files for target turtlebot4_base_lib
 turtlebot4_base_lib_OBJECTS = \
@@ -221,7 +221,7 @@ libturtlebot4_base_lib.a: CMakeFiles/turtlebot4_base_lib.dir/src/buttons.cpp.o
 libturtlebot4_base_lib.a: CMakeFiles/turtlebot4_base_lib.dir/src/leds.cpp.o
 libturtlebot4_base_lib.a: CMakeFiles/turtlebot4_base_lib.dir/build.make
 libturtlebot4_base_lib.a: CMakeFiles/turtlebot4_base_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libturtlebot4_base_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libturtlebot4_base_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/turtlebot4_base_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot4_base_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -234,6 +234,6 @@ CMakeFiles/turtlebot4_base_lib.dir/clean:
 .PHONY : CMakeFiles/turtlebot4_base_lib.dir/clean
 
 CMakeFiles/turtlebot4_base_lib.dir/depend:
-	cd /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base /home/brian/robo450/lesson_enae450_s26/turtlebot4_ws/build/turtlebot4_base/CMakeFiles/turtlebot4_base_lib.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base /home/awudali/enae450_final/emae450RoboFInal/turtlebot4_ws/build/turtlebot4_base/CMakeFiles/turtlebot4_base_lib.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/turtlebot4_base_lib.dir/depend
 
